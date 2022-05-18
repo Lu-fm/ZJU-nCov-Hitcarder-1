@@ -255,13 +255,6 @@
                                     </div>
                                 </div>
                             </li>
-
-                            <li>
-                                <div class="text">
-                                    <input style="width: unset;display: inline-block;" name="verifyCode" v-model="info.verifyCode" type="text" placeholder="请输入验证码">
-                                    <span style="float: right;"><img :src="codeImg" style=" margin-bottom: 10px;" @click="change()"/></span>
-                                </div>
-                            </li>
                             <li>
                                 <div name="sfqrxxss" class="radio">
                                     <div>
